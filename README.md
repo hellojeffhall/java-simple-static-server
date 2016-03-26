@@ -4,7 +4,7 @@ For now, to test, one has to naviage to the lib diectory and run...
 ```bash
 java Runner filePath 
 ```
-...where filePath is replaced by the path to the file relative to static_files (e.g., "index.html" or "/res/stuff.html"). Typing "/" will also alias to "index.html".
+...where filePath is replaced by the path to the file relative to static_files (e.g., "index.html" or "/subfolder/stuff.html"). Typing "/" will also alias to "index.html".
 
 The "Runner" test has only been tested on Linux, but should work on OS X as well. It may work on Windows, but there are some manual path joins (for now) that may or may not play nicely with Windows.
 
